@@ -175,6 +175,7 @@ body {
   .list {
     display: flex;
     column-gap: 0;
+    width: 224px;
     overflow: visible;
   }
   .trademarks-btn {

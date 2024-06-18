@@ -22,13 +22,12 @@ function swiperCard() {
       init = true
       swiper = new Swiper('.swiper', {
         direction: 'horizontal',
-        slidesPerView: 1,
+        slidesPerView: 'auto',
         spaceBetween: 24,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
         },
-        freeMode: true,
       })
     }
   } else if (init) {
